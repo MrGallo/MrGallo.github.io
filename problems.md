@@ -4,7 +4,6 @@ title: Problems
 permalink: /problems/
 topic: none
 ---
-<h1 class="post-title">{{ page.title }}</h1>
 [Install Java](/problems/jdk-install/)
 <ol>
 {% for problem in site.problems %}
