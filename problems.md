@@ -5,7 +5,7 @@ permalink: /problems/
 topic: none
 ---
 <h1 class="post-title">{{ page.title }}</h1>
-[Install Java](/problems/jdk-intall/)
+[Install Java](/problems/jdk-install/)
 <ol>
 {% for problem in site.problems %}
   <li><a href="{{ problem.permalink }}">{{ problem.topic }}: {{ problem.title }}</a></li>
