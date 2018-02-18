@@ -5,5 +5,7 @@ layout: default
 <h1 class="post-title">{{ page.title }}</h1>
 {{ page.content }}
 {% if page.pbd %}
+---
+
     {% include problem_footer.md %}
 {% endif %}
