@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h3>Problem {{ page.number }}</h3>
+<h3>Problem {{ page.id | remove: '/problems/' | plus: 0 }}</h3>
 <h1 class="post-title">{{ page.title }}</h1>
 {{ page.content }}
 

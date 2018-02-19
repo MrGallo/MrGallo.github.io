@@ -1,11 +1,11 @@
 <hr>
-{% assign previous = site.problems[page.number].previous %}
+{% assign previous = page.previous %}
 {% if previous %}
-  <a href="{{ previous.permalink }}" style="float:left;">&#9668; {{previous.number}}: {{ previous.title }}</a>
+  <a href="{{ previous.permalink }}" style="float:left;">&#9668; {{ previous.id | remove: '/problems/' | plus: 0 }}: {{ previous.title }}</a>
 {% endif %}
 
-{% assign next = site.problems[page.number].next %}
+{% assign next = page.next %}
 {% if next %}
-  <a href="{{ next.permalink }}" style="float:right;">{{next.number}}: {{ next.title }} &#9658;</a>
+  <a href="{{ next.permalink }}" style="float:right;">{{ next.id | remove: '/problems/' | plus: 0 }}: {{ next.title }} &#9658;</a>
 {% endif %}
 <br><br>
