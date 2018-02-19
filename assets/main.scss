@@ -3,10 +3,21 @@
 
 @import "{{ site.theme }}";
 
-table.problems th, table.problems td {
-  padding: 3px;
+table.problems {
+   th, td {
+    padding: 3px;
+  }
+  
+  th {
+    text-align: left;
+    font-size: 25px;
+  }
 }
-table.problems th {
-  text-align: left;
-  font-size: 25px;
+
+pre.terminal {
+  background-color: #272727;
+  color: #999;
+  kbd {
+    color: #ffffff;
+  }
 }
