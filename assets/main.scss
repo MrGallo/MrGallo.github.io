@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+table.problems th, table.problems td {
+  padding: 3px;
+}
+table.problems th {
+  text-align: left;
+  font-size: 25px;
+}
