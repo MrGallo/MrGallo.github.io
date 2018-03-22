@@ -8,7 +8,7 @@ class Address {
 	int zip;
 
 	public String toString() {
-		return (this.street + ", " + this.city + "  " + this.zip);
+		return this.street + ", " + this.city + "  " + this.zip;
 	}
 }
 
