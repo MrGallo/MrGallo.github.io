@@ -4,12 +4,7 @@ public class Dog {
   String furColor;
   int birthYear;
   
-  public Dog(String name, String breed, String furColor, int birthYear) {
-    this.name = name;
-    this.breed = breed;
-    this.furColor = furColor;
-    this.birthYear = birthYear;
-  }
+  // Create constructor here!
   
   public void sayHello() {
     System.out.println("Woof");
