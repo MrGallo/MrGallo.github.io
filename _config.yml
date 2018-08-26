@@ -43,3 +43,5 @@ plugins:
 collections:
   problems:
     output: true
+  challenge_sections:
+    output: false
